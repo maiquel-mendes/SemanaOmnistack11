@@ -5,7 +5,9 @@ export default StyleSheet.create({
     container: {
         flex: 1,
         paddingHorizontal: 24,
-        paddingTop: Constants.statusBarHeight + 20,
+        paddingTop: Constants.statusBarHeight + 10,
+        marginBottom: 30,
+        justifyContent: "center",
     },
 
     header: {
@@ -18,7 +20,7 @@ export default StyleSheet.create({
         padding: 24,
         borderRadius: 8,
         backgroundColor: '#fff',
-        marginBottom: 16,
+        marginBottom: 10,
         marginTop: 16,
     },
 
@@ -39,7 +41,7 @@ export default StyleSheet.create({
         padding: 15,
         borderRadius: 8,
         backgroundColor: '#fff',
-        marginTop: 5,
+        marginTop: 1,
     },
 
     heroTitle: {
